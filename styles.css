@@ -1,1 +1,101 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(LoginAuth/image.jpg);
+    background-size:cover;
+}
+.box{
+  width:300px;
+  padding:30px;
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:rgba(155, 102, 102, 0.4);
+  text-align:center;
+  background: linear-gradient(#e66465, #9198e5);
+ 
+  opacity: .8;
 
+}
+.box h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ #loginSucessful
+{
+    color: rgb(52, 228, 46);
+    text-transform:lowercase;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#loginFail
+{
+    color: #cc0000;
+    text-transform:lowercase;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box p
+{
+   
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    text-align: center;
+    display: block;
+    font-size: small;
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background:local;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #7ce254;
+padding:14px 10px;
+width:220px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+font-weight: 900;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+width:270px;
+border-color: #d64b4bec;
+
+}
+.box input[type="submit"]{
+
+
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #ffc400ec;
+padding:14px 35px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+cursor:pointer;
+    
+}
+.box input[type="submit"]:hover{
+ background: #18ad18ec;
+}
